@@ -90,9 +90,9 @@ public class FirstGame {
 
        if (map [0][0] == actualPlayer && map [1][1] == actualPlayer && map[2][2] == actualPlayer) return true;
        if (map [0][2] == actualPlayer && map [1][1] == actualPlayer && map[2][0] == actualPlayer) return true;
-
+ 
        return false;
-   } 
+   }
 
     public static boolean isFullMap () { // 14. Пустота. делаем логику Ничья(пустых клеток нет)
         for (int y = 0; y < mapSizeW; y++) { //14. 1 бежим по всему массиву, строки, столбцы, и спрашиваем, текущее поле по координатам у,х, а внутри есть пустая ячейка? если да, верни false. А если такого нет, то true
