@@ -90,7 +90,7 @@ public class FirstGame {
 
        if (map [0][0] == actualPlayer && map [1][1] == actualPlayer && map[2][2] == actualPlayer) return true;
        if (map [0][2] == actualPlayer && map [1][1] == actualPlayer && map[2][0] == actualPlayer) return true;
- 
+
        return false;
    }
 
